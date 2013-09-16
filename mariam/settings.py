@@ -108,10 +108,8 @@ ROOT_URLCONF = 'mariam.urls'
 WSGI_APPLICATION = 'mariam.wsgi.application'
 
 TEMPLATE_DIRS = (
-    # Put strings here, like "/home/html/django_templates" or "C:/www/django/templates".
-    # Always use forward slashes, even on Windows.
-    # Don't forget to use absolute paths, not relative paths.
-    '/home/jeka/django-workground/mariam/mariam/mariamdev/templates'
+    '/home/jeka/django-workground/mariam/mariam/mariam/templates',
+    '/home/jeka/django-workground/mariam/mariam/polls/templates',
 )
 
 INSTALLED_APPS = (
